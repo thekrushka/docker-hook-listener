@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo test
-docker pull mjhea0/flask-docker-workflow
-docker stop flask
-docker rm flask
-docker run --name flask -d -p 80:80 mjhea0/flask-docker-workflow
+docker pull thekrushka/dockerizing-django
+docker stop uks-tim2
+docker rm uks-tim2
+docker run --name uks-tim2 -d -p 8002:8002 thekrushka/dockerizing-django
