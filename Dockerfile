@@ -1,6 +1,4 @@
-# start with a base image
-FROM ubuntu:14.10
-MAINTAINER Real Python <info@realpython.com>
+FROM python:3.5-onbuild
 
 # install dependencies
 RUN apt-get update
